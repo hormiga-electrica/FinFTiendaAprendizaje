@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+
+<link rel=stylesheet href=tiendaAprendizaje.css type=text/css />
+<script src="tiendaAprendizaje.js" defer></script>
+<title> Tienda Aprendizaje </title>
+<link rel="icon" type="image/png" href="Imagenes-FinF/FinF-favicon.png">
+
+<meta charset= "utf-8">
+<meta name= "keywords" content= "tienda, playeras, arte, venta, de, articulos">
+<meta name= "description" content= "venta de felicidad">
+<meta name= "author" content= "Hazaelerino Celedonio">
+<meta http-equiv= "refresh" content= ";">
+<meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
+
+
+
+
+</HEAD>
+<BODY>
+	
+<img src= "fondo.png" alt="fondo" class="fondo">
+<a href="FinF-Carreta.html"><img src="carrito.png" alt="carrito" class="carreta"></a>
+<a href="Playera1"><img src="playera1.png" alt="Playera1"  class="playera1"></a>
+  
+
+<div id="producto1">
+  <h2 class="articulo1">"Muerte Voladora"</h2>
+  <h3 class="precio1"> Precio: $250 </h3>
+</div>
+
+<form id="tallas">
+  <fieldset>
+    <legend>Elige tu talla:</legend>
+    <div>
+      <input type="radio" id="tallaMediana" name="talla" value="MEDIANA" />
+      <label for="tallaMediana">M</label>
+      <button type="button" id="botonQuitarM">Restar</button>
+
+      <input type="radio" id="tallaGrande" name="talla" value="GRANDE" />
+      <label for="tallaGrande">G</label>
+
+      <input type="radio" id="tallaXGrande" name="talla" value="XGRANDE" />
+      <label for="tallaXGrande">XG</label>
+    </div>
+  </fieldset>
+</form>
+
+<button type="button" id="botonAgregar">AGREGAR A CARRETA</button>
+<button type="button" id="botonPagar">IR A CARRETA Y PAGAR</button>
+
+<center>
+<div id="mostrador"></div>
+</center>
+
+</BODY>
+</HTML>
